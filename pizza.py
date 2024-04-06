@@ -42,3 +42,11 @@ class Pizza():
             self.validar(self.masa, tipo_masa)
             
         )
+        
+if __name__ == "__main__":
+    pizza1 = Pizza()
+    pizza1.pedido()
+    if pizza1.es_valido:
+        print('La pizza es valida')
+    else:
+        print('La pizza no es valida')
