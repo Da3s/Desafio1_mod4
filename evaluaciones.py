@@ -15,7 +15,6 @@ armar_pedido.pedido()
 
 
 # Verificar si el pedido es valido segun lo ofrecido
-print('Usted ingreso los siguientes ingredientes')
 print(f'Su pizza como proteina tiene {armar_pedido.proteina}, los vegetales seleccionados son {armar_pedido.vegetal_1} y {armar_pedido.vegetal_2}, el tipo de masa es {armar_pedido.masa}.')
 print(f'Ingredientes dentro de lo ofrecido? {armar_pedido.es_valido}')
 
